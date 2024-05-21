@@ -1,4 +1,4 @@
-
+<%@ page language="java" contentType="text/html" pageEncoding="UTF-8" %>
 <%
  //jsp 문법 적는 공간
 %>
@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <p>아이디: <%=idValue%></p>
+    <h1> Stageus Schedule </h1>
 
     <script>
         //console.log("<%=idValue%>") 

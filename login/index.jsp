@@ -14,14 +14,25 @@
     <h1 id="stageus_header"> Stageus Schedule </h1>
     
     <form action="login_action.jsp">
-        
-        <input type="text" name="name_value" placeholder="이름">
-        <input type="text" name="tel_value" oninput="tel_form()" placeholder="전화번호">
-      
+        <div class="login_box">
+            <input id="id_box" type="text" name="id_value" placeholder="ID">
+            <input id="pw_box" type="password" name="pw_value" placeholder="PASSWORD">
+        </div>
     </form>
     
     <input class="login_box" type="submit" value="Login">
 
+    <form action="signupPage.jsp">
+        <input class="option_box" type="submit" value="회원가입">
+    </form>
     
+    <form action="findIDpage.jsp">
+        <input class="option_box" type="submit" value="아이디 찾기">
+    </form>
+    
+    <form>
+        <input class="option_box" type="submit" value="비밀번호 찾기">
+    </form>
+
 
 </body>
