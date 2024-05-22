@@ -1,0 +1,23 @@
+#background{
+    background-color: #3b5998;
+    
+}
+
+#stageus_header{
+    color: white;
+}
+
+.login_box{
+    display: flex;
+}
+#id_box{
+    width: 100px;
+}
+
+#pw_box{
+    width: 100px;
+}
+
+.option_box{
+    display: flex;
+}
