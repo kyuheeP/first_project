@@ -9,8 +9,8 @@
     <%-- <p>아이디: <%=id_value%> </p> --%>
 
     <script>
-        alert("로그인에 성공하였습니다")
-        location.href="calendar.jsp"
+        alert("회원가입에 성공하였습니다")
+        location.href="../login/index.jsp"
     </script>
    
 

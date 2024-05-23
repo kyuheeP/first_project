@@ -3,21 +3,51 @@
     
 }
 
-#stageus_header{
+#header{
     color: white;
+    font-size: 100px;
+    text-align: center;
+    margin: 100px;
 }
 
-.login_box{
-    display: flex;
+#login{
+    margin: auto;
+    width: 300px;
+    background-color: #EEEFF1;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+            
+
+}
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
 }
 #id_box{
-    width: 100px;
+
+    margin-bottom: 10px;
 }
 
 #pw_box{
-    width: 100px;
+    margin-bottom: 10px;
 }
 
-.option_box{
+.btn {
+    background-color: hsl(24, 81%, 51%);
+    /* margin-bottom: 30px; */
+    color: white;
+}
+
+#option_box{
     display: flex;
+
+}
+
+.option{
+    text-align: center;
+    color: #3b5998;
 }

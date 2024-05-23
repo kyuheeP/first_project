@@ -1,0 +1,54 @@
+#back{
+    background-color: #3b5998;
+}
+
+#signbox{
+    margin: auto;
+    width: 700px;
+    background-color: #EEEFF1;
+    border-radius: 5px;
+    /* text-align: center; */
+    padding: 50px;
+            
+
+}
+
+.sign{
+    width: 50%;
+    
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#idbtn{
+    background-color: hsl(24, 81%, 51%);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+}
+.radio{
+    width: 25%;
+    margin-bottom: 10px;
+    /* color: white; */
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    background-color:  #EEEFF1;
+}
+#signup_btn{
+    background-color: hsl(24, 81%, 51%);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    width: 25%;
+   
+    
+}

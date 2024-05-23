@@ -7,16 +7,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" type="text/css" href="find.css">
 </head>
-<body>
-    
-    <form action="">
+<body id="backg">
+    <div id="findbox">
+    <form action="findIDaction.jsp">
         
-        <input type="text" name="name_value" placeholder="이름">
-        <input type="text" name="tel_value" oninput="tel_form()" placeholder="전화번호">
-        <input type="submit" value="아이디찾기">
+        <input class="find" type="text" name="name_value" placeholder="이름">
+        <input class="find" type="text" name="tel_value" oninput="tel_form()" placeholder="전화번호">
+        <br>
+        <input id="find_btn" type="submit" value="아이디찾기">
     </form>
+    </div>
     
    
     

@@ -11,28 +11,32 @@
 </head>
 <body id="background">
     
-    <h1 id="stageus_header"> Stageus Schedule </h1>
+    <h1 id="header"> SCHEDULER </h1>
+    <div id="login">
+        
+        <form action="loginAction.jsp">
+            
+            <input id="id_box" type="text" name="id_value" placeholder="ID">
+            <input id="pw_box" type="password" name="pw_value" placeholder="PASSWORD">
+            <input class="btn" type="submit" value="Login">
+        </form>
+        
+        <div id="option_box">
+            <form action="../signup/signupPage.jsp">
+                <input class="option" type="submit" value="회원가입">
+            </form>
     
-    <form action="loginAction.jsp">
-        <div class="login_box">
-        <input id="id_box" type="text" name="id_value" placeholder="ID">
-        <input id="pw_box" type="password" name="pw_value" placeholder="PASSWORD">
-        <div>
-        <input class="login_box" type="submit" value="Login">
-    </form>
+            <form action="../find/findIDpage.jsp">
+                <input class="option" type="submit" value="아이디 찾기">
+             </form>
     
-    <form action="signupPage.jsp">
-        <input class="option_box" type="submit" value="회원가입1">
-    </form>
+            <form action="../find/findpasswordPage.jsp">
+                <input class="option" type="submit" value="비밀번호 찾기">
+            </form>
+        </div>
     
-    <form action="findIDpage.jsp">
-        <input class="option_box" type="submit" value="아이디 찾기">
-    </form>
+    </div>
     
-    <form action="findpasswordPage.jsp">
-        <input class="option_box" type="submit" value="비밀번호 찾기">
-    </form>
-
     
     <script src="index.js"></script>
 </body>

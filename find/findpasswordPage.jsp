@@ -7,19 +7,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" type="text/css" href="find.css">
 </head>
-<body>
+<body id="backg">
     
     
-    
-    <form action="">
+    <div id="findbox">
+    <form action="findpwAction.jsp">
         
-        <input type="text" name="id_value" placeholder="아이디">
-        <input type="text" name="tel_value" oninput="tel_form()" placeholder="전화번호">
-        <input class="login_box" type="submit" value="비밀번호 찾기">
+        <input class="find" type="text" name="id_value" placeholder="아이디">
+        <input class="find" type="text" name="tel_value" oninput="tel_form()" placeholder="전화번호">
+        <br>
+        <input id="find_btn" type="submit" value="비밀번호 찾기">
     </form>
-    
+    </div>
     
 
     
