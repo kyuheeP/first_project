@@ -20,10 +20,10 @@ function same_pw() {
     var pConfirm = document.getElementById('pwConfirm');
     
     if (p1 === p2) {
-        pConfirm.textContent = '비밀번호 일치';
+        pConfirm.innerHTML = '비밀번호 일치';
         pConfirm.style.color = 'green';
     } else {
-        pConfirm.textContent = '비밀번호 불일치';
+        pConfirm.innerHTML = '비밀번호 불일치';
         pConfirm.style.color = 'red';
     }
 

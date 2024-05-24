@@ -10,7 +10,7 @@
 
     <script>
         alert("로그인에 성공하였습니다")
-        location.href="calendar.jsp"
+        location.href="../calendar/calendar.jsp"
     </script>
    
 
