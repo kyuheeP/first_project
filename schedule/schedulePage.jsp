@@ -11,19 +11,27 @@
 </head>
 <body>
 
-<div> 5 </div>
+<div id="header"> 5 </div>
+
 <div id="flex">
-<div>
+
+
+<div id="left">
+<form action="editSchedule.jsp">
 <ul>
-<li>12시 ㅁㅁㅁ <input type="submit" value="수정"> <button type="button" onclick="delete()">삭제</button>  </li>
-<li>16시 ㅁㅁㅁ <input type="submit" value="수정"> <button type="button" onclick="delete()">삭제</button> </li>
-<li>18시 ㅁㅁㅁ <input type="submit" value="수정"> <button type="button" onclick="delete()">삭제</button> </li>
+<li>12시 ㅁㅁㅁ <input class="b" type="submit" value="수정"> <button class="b" type="button" onclick="delete()">삭제</button>  </li>
+<li>16시 ㅁㅁㅁ <input class="b" type="submit" value="수정"> <button class="b" type="button" onclick="delete()">삭제</button> </li>
+<li>18시 ㅁㅁㅁ <input class="b" type="submit" value="수정"> <button class="b" type="button" onclick="delete()">삭제</button> </li>
 </ul>
+</form>
 </div>
-<div>
-<input type="time" placeholder="시간">
-<input type="text" placeholder="추가할 일정을 입력하세요.">
-<input type="submit" value="추가하기">
+
+
+
+<div id="plus">
+<input type="time" placeholdser="시간">
+<input id="input_box" type="text" placeholder="추가할 일정을 입력하세요.">
+<input id="btn" type="submit" value="추가하기" onclick="plus()">
 </div>
     
         
