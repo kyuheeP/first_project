@@ -11,8 +11,9 @@ function tel_form(target) {
 //         $('#pwConfirm').text('비밀번호 불일치').css('color', 'red')
 //     }
 // }
-document.getElementById('pw1').addEventListener('input', same_pw);
-document.getElementById('pw2').addEventListener('input', same_pw);
+
+// document.getElementById('pw1').addEventListener('input', same_pw);
+// document.getElementById('pw2').addEventListener('input', same_pw);
 
 function same_pw() {
     var p1 = document.getElementById('pw1').value;

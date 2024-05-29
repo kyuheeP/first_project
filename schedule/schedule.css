@@ -29,6 +29,7 @@
     width: 50%;
     text-align: right;
     float: right;
+    /* float 쓰면 안되는 문법 플렉스를 사용할것 */
     display: flex;
     flex-direction: column;
     width:  500px;

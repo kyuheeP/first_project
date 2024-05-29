@@ -1,7 +1,11 @@
 <%@ page language="java" contentType="text/html" pageEncoding="UTF-8" %>
 <%
- //jsp 문법 적는 공간
+    request.setCharacterEncoding("utf-8");
+    //String year = request.getParameter("year");
+    String month = request.getParameter("month");
+    String date = request.getParameter("date");
 %>
+
 <%-- 여기가 로그인 페이지 --%>
 <head>
     <meta charset="UTF-8">
@@ -11,7 +15,7 @@
 </head>
 <body>
 
-<div id="header"> 5 </div>
+<div id="header"></div>
 
 <div id="flex">
 
@@ -38,5 +42,13 @@
   
     
     
-</div>   
+</div>
+
+<script>
+    var reqMonth = <%=month%>
+    var reqDate = <%=date%>
+</script>
+<script src="schedulePage.js"></script>
+
+
 </body>
